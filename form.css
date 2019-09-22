@@ -9,7 +9,7 @@ body{
   background-color: rgba(0, 0, 0,0.5);
 }*/
 .bg img{
-    padding: 130px 500px 0 520px;
+    padding: 100px 500px 0 520px;
 }
 
 .container{
@@ -17,6 +17,9 @@ body{
 }
 .container label {
   color: white;
+}
+h1 {
+  text-align: center;
 }
 /* Full-width inputs */
 input[type=text], input[type=password] {
