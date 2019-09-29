@@ -3,9 +3,47 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <style>
+    body{
+      background-color: #b93c3c;
+    }
+    .container{
+      padding: 0px 500px 200px 570px;
+    }
+    h1 {
+      text-align: center;
+    }
+    input[type=text], input[type=password] {
+      width: 200px;
+      padding: 12px 20px;
+      margin: 8px 0;
+      /*display: inline-block;*/
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      align-content: center;
+    }
+
+    /* Set a style for all buttons */
+    button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 200px;
+    }
+
+    /* Add a hover effect for buttons */
+    button:hover {
+      opacity: 0.8;
+    }
+    </style>
   </head>
   <body>
+    <h1> LOGIN </h1>
     <form>
+        <div class="container">
      First name:<br>
      <input type="text" name="firstname"><br>
      Last name:<br>
@@ -17,7 +55,9 @@
      <input type="text" name="mail"><br>
      Password:<br>
      <input type="password" name="lastname"><br>
-      <input type="submit" value="Register">
+      <button type="submit"> REGISTER </button
+         </div>
    </form>
+
   </body>
 </html>
